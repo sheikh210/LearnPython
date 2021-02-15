@@ -8,6 +8,5 @@ albums = [("Welcome to my nightmare", "Alice Cooper", 1975),
 print(len(albums))
 
 for name, artist, year in albums:
-    print("Album: {0}\nArtist: {1}\nYear: {2}"
-          .format(name, artist, year))
+    print(f"Album: {name}\nArtist: {artist}\nYear: {year}")
     print("-" * 10)

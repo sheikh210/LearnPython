@@ -1,4 +1,4 @@
-from sequence_types_and_iterables.dictionaries.dictionaries_meals import pantry, recipes
+from data_structures.dictionaries.dictionaries_meals import pantry, recipes
 
 # Dictionary Comprehension (At the time of writing this, I need to understand this code better)
 # display_dict = {str(index + 1): meal for index, meal in enumerate(recipes)}

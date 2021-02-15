@@ -62,9 +62,7 @@ lollipop = albums[1][3][11][1]
 print(lollipop)
 
 for title, artist, year, songs in albums:
-    print("TITLE: {0}\nARTIST: {1}\nYEAR: {2}\nSONGS:"
-          .format(title, artist, year))
+    print(f"TITLE: {title}\nARTIST: {artist}\nYEAR: {year}\nSONGS:")
     for number, name in songs:
-        print("\t{0}\t{1}"
-              .format(number, name))
+        print(f"\t{number}\t{name}")
     print("-" * 10)

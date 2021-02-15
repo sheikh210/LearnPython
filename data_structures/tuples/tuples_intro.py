@@ -4,7 +4,7 @@
 # Good practice is to always use parenthesis when declaring tuples, as there are certain instances where you MUST
 #   e.g. - When passing a tuple literal to print(), you must use () within the print() to output a tuple
 # t = ('a', 'b', 'c')
-# print(t)
+# print(t) == print(('a', 'b', 'c'))
 
 welcome = ("Welcome to my nightmare", "Alice Cooper", 1975)
 bad = ("Bad Company", "Bad Company", 1974)
