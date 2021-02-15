@@ -17,6 +17,7 @@ sorted_numbers = sorted(number)
 print(sorted_numbers)
 
 another_sorted_numbers = number.sort()
+
 print(another_sorted_numbers) # Returns None
 
 print()

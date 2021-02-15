@@ -1,5 +1,5 @@
 # Import from a Python file
-from sequence_types.tuples.jukebox import albums
+from sequence_types_and_iterables.tuples.jukebox import albums
 
 choice = "-"
 SONGS_LIST = 3

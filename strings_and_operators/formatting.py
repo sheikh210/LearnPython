@@ -1,6 +1,6 @@
 # This is the exponent operator: **
 # Using :2 or :4 after the index allows us format the output by determining width of field
-for i in range(1,13):
+for i in range(1, 13):
     print("NUMBER: {0:2} NUMBER SQUARED: {1:3} NUMBER CUBED: {2:4}".format(i, i**2, i**3))
 
 print()
@@ -8,12 +8,12 @@ print()
 # To left align, use the < operator after the colon, but before the width value
 # To right align use the > operator after the colon, however right align is done by default
 # To center align, use the ^ operator
-for i in range(1,13):
+for i in range(1, 13):
     print("NUMBER: {0:<2} NUMBER SQUARED: {1:<3} NUMBER CUBED: {2:<4}".format(i, i**2, i**3))
 
 print()
 
-for i in range(1,13):
+for i in range(1, 13):
     print("NUMBER: {0:^2} NUMBER SQUARED: {1:^3} NUMBER CUBED: {2:^4}".format(i, i**2, i**3))
 
 print()
